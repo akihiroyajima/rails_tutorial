@@ -3,6 +3,8 @@ ruby '2.0.0'
 # ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.5'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 
 group :development, :test do
 	gem 'sqlite3', '1.3.8'
@@ -19,7 +21,7 @@ group :test do
 	gem 'capybara', '2.1.0'
 
 	# Uncomment this line on OS X.
-	# gem 'growl', '1.0.3'
+	gem 'growl', '1.0.3'
 end
 
 gem 'sass-rails', '4.0.5'
